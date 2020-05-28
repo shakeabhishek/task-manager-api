@@ -10,7 +10,7 @@ router.post('/send', (req, res) => {
         secure: false,
         requireTLS: true,
         auth: {
-            user: 'abhi.xavier2000@gmail.com',
+            user: 'iib.developer.portal@gmail.com',
             pass: process.env.GMAIL_PASSWORD
         }
     });
